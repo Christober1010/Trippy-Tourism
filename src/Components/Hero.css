@@ -1,0 +1,40 @@
+.bg {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  z-index: -1;
+  object-fit: cover;
+}
+.text-content {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+}
+.title {
+  color: white;
+  font-weight: 900;
+  margin-top: 10%;
+  text-shadow: 5px 5px 10px black;
+}
+.sub-head {
+  /* font-size: 25px; */
+  font-weight: 700;
+  color: antiquewhite;
+  text-shadow: 5px 5px 10px black;
+}
+@media screen and (max-width: 500px) {
+  .bg {
+    height: 50vh;
+  }
+  .text-content {
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+  }
+
+}

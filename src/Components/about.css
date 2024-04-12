@@ -1,0 +1,65 @@
+.about-features {
+  background-color: orange;
+  /* margin-bottom: 100px; */
+}
+.circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle:hover {
+  box-shadow: inset 10px 10px 25px, 10px 10px 25px black;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sub-para {
+  color: #ff7b00;
+  font-family: cursive;
+}
+.sub-img {
+  width: 100%;
+}
+.about-fav {
+  background-color: rgb(236, 235, 235);
+}
+.cards img {
+  height: 550px;
+  width: 100%;
+}
+.offer{
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+.offer-wrapper {
+  background-image: url(https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.offer-text{
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+.overlay{
+   filter: drop-shadow(10px 7px 10px black);
+}
+@media screen and  (max-width:800px) {
+    .offer-text{
+        font-size: 35px;
+    }
+    .overlay{
+        height: 250px;
+    }
+    
+}
